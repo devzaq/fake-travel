@@ -1,0 +1,26 @@
+{
+  "name": "project_01",
+  "version": "1.0.0",
+  "main": "express_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fsmon": "npx fsmon express_server.js",
+    "start": "nodemon express_server.js"
+  },
+  "bin": {
+    "myserver": "watcher.js"
+  },
+  "author": "dz",
+  "license": "ISC",
+  "description": "cheap copy booking website",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@dzaq/fsmon": "^1.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
